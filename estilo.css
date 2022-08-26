@@ -8,7 +8,7 @@ h1{
     font-family: 'DM Sans', sans-serif;
     font-size: 40px;
     text-align: left;
-    background-color: #0F9FA6;
+    background-color: #137f85;
     padding: 4rem;
     border-radius: 5px;
     border-bottom: 5px solid #6DF8FF;
@@ -21,8 +21,8 @@ h1{
 
 #footer
     {
-        background-color: #0F9FA6;
-        border-bottom: 5px solid #09F4FF;
+        background-color: #137f85;
+        border-bottom: 5px solid #09f3ffb4;
         text-align: center;
         font-family: 'Rubik', sans-serif;
         color: rgb(255, 255, 255);
