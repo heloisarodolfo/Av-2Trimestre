@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IMC</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="./img/picwish.png">
+
+</head>
+<body>
+    <div id="background">
+        <header>
+            <div id="maintitle">
+                <h1><img src="./img/picwish.png" alt="logo" width="70">
+                    Índice de Massa Corporal</h1>
+            </div>
+        </header>
+    </div>
+    <div id="calculadora">
+        <div class="container" id="dataInsert">
+            <table id="tabeladados">
+                <thead>
+                    <tr>
+                        <td>
+                            <h3>Insira sua altura</h3>
+                              <input type="number" placeholder="Ex: 1,70" id="altura">
+                        </td>
+                        <td>
+                            <h3>Insira seu peso</h3>
+                             <input type="number" placeholder="Ex: 65,2" id="peso">  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="Calcular" onclick="Calcular()" id="buttonCalc">
+                        </td>
+                        <td>
+                            <input type="button" value="Limpar" onclick="Limpar()" id="buttonClean">
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                </thead>
+            </table>
+            <p>Restulado</p>
+            <p id="result"></p>
+            <br>
+            <br>
+</div>
+<div id="classificaçaoIMC" style="padding: 30px;">
+    <table id="tabela">
+            <tbody id="tbody">
+                <thead>
+                         <tr>
+                            <th>IMC</th>
+                            <th>CLASSIFICAÇÃO</th>
+                            <th>OBESIDADE</th>
+                        </tr>
+                    </thead>
+                    <td>
+                        <br>
+                    </td>
+                    <tr>
+                        <td>MENOR QUE 18.5</td>
+                        <td>MAGREZA</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                         <td>ENTRE 18.5 E 24.9</td>
+                        <td>NORMAL</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                            <td>ENTRE 25.0 E 29.9</td>
+                            <td>SOBREPESO</td>
+                            <td>I</td>
+                        </tr>
+                    <tr>
+                        <td>ENTRE 30.0 E 39.9</td>
+                        <td>OBESIDADE</td>
+                        <td>II</td>
+                    </tr>
+                     <tr>
+                        <td>MAIOR QUE 40.0</td>
+                        <td>OBESIDADE GRAVE</td>
+                        <td>III</td>
+                    </tr>
+
+            </tbody>
+            
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+
+
+<footer id="footer">
+    <p id="textfooter">
+    <strong>Site Desenvolvido por Heloisa Cristina Rodolfo.😽</strong>
+    <br>
+    2 A
+    <br>
+    SESI SENAI - ESCOLA S
+    </p>    
+</footer>
+</html>

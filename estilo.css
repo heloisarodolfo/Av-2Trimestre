@@ -1,0 +1,68 @@
+body {
+    background-color: #FFF7F7; 
+}
+
+
+h1{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    background-color: #0F9FA6;
+    padding: 4rem;
+    border-radius: 5px;
+    border-bottom: 5px solid #6DF8FF;
+}
+
+#background{
+    background-color: #0F9FA6;
+    border-radius: 10px;
+}
+
+#footer
+    {
+        background-color: #0F9FA6;
+        border-bottom: 5px solid #09F4FF;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        margin-left: 1rem;
+        margin-bottom: 7rem;
+        border-radius: 8px;
+    }
+    
+    #textfooter {
+        padding: 2rem;
+    }
+
+    #calculadora{
+        color: white;
+        background-color: #0F9FA6;
+        font-family: 'Rubik', sans-serif;
+        border: 3px solid #09F4FF;
+        border-radius: 20px;
+        text-align: center;
+        padding: 1rem;
+        margin: 2rem auto;
+        border-bottom: solid 4px #09F4FF;
+        border-right: solid 2px #09F4FF;
+        width: 90vw;
+    
+    }
+    
+    #peso{
+        border-radius: 10px;
+        border: solid 1px white;
+        padding: 3px;
+        border-bottom: solid 2px #09F4FF;
+        border-right: solid 2px #09F4FF;
+    }
+    
+    #altura{
+        border-radius: 10px;
+        border: solid 1px white;
+        padding: 3px;
+        border-bottom: solid 2px #09F4FF;
+        border-right: solid 2px #09F4FF;
+    }
